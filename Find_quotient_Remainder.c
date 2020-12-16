@@ -1,21 +1,20 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{    
-    int divisor, dividend, quotient, remainder;
+int main () {
+  int a,b,c,d;
+  cout << "Enter the First Number"<<endl;
+  cin >> a;
+  cout << "Enter the Second Number" <<endl;
+  cin >> b;
+  
 
-    cout << "Enter dividend: ";
-    cin >> dividend;
+  c= a/b;
+  d= a%b;
 
-    cout << "Enter divisor: ";
-    cin >> divisor;
+  cout << "The Quotient is "<<c<<endl;
+  cout << "The Remainder is " << d << endl;
 
-    quotient = dividend / divisor;
-    remainder = dividend % divisor;
-
-    cout << "Quotient = " << quotient << endl;
-    cout << "Remainder = " << remainder;
-
-    return 0;
+  return 0;
+  
 }
