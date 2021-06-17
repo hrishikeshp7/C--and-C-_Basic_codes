@@ -21,13 +21,17 @@ int main () {
 
     if (g = h = i ){
         cout << "The Two Equations are Dependant " << endl;
+    }
 
     else {
         cout << "Moving to Next step " << endl;
 
     }
-    if (g = h )
-
+    if (g != h ) { 
+        cout << "The Two Eqautions are Intersecting" << endl;
+        
     }
+
+    
 
 }
